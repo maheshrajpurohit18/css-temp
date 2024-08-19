@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Explorer</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styless.css">
+    </head>
+    <body>
+       <header>
+            <h1>explorer</h1>
+            <div class="navBar">
+                <a href="#" class="navLink">Hotels</a>
+                <a href="#" class="navLink">Bike Rentals</a>
+                <a href="#" class="navLink">Restaurants</a>
+            </div>
+        </header>
+        <div class="home">
+            <img src="./images/bike.jpg" alt="image" id="image">
+            <div class="text">
+                <br>   
+                <p>WELCOME TO EXPLORER</p>
+                <h2>Your Adventure </h2>
+                <h2>Travel Expert in</h2>
+                <h2 class="strong">the <strong>World</strong></h2>
+                <br>
+                <br>
+                <select name="search" id="search">
+                    <option value="choose">Choose</option>
+                    <option value="1">Asia</option>
+                    <option value="2">Australia</option>
+                    <option value="3">Africa</option>
+                    <option value="4">Europe</option>
+                    <option value="5">North America</option>
+                    <option value="6">South America</option>
+                </select>
+                <button id="search-button">Explore</button>
+            </div>
+        </div>
+        
+        <div class="content">
+        <div class="dest">
+            <h2>Destination</h2>
+            <p>Just for you. Because you and your bike are special to us!</p>
+        </div>
+        <div class="card-contatiner">
+            <div class="card">
+                <img src="./images/asia.png" alt="card-image" class="card-image">
+                <p class="card-text">Never Ending Paddy Fields and Narrow Roads</p>
+                <p class="card-title">Asia</p>
+                <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident consectetur distinctio quae, fugit nobis incidunt aliquid facere doloribus odit excepturi tempore ea adipisci iusto quis. Nam atque reprehenderit quibusdam!</p>
+                <a href="#" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./images/North america.png" alt="card-image" class="card-image">
+                <p class="card-text">Small ride across town in mid summer heat</p>
+                <p class="card-title">North America</p>
+                <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident consectetur distinctio quae, fugit nobis incidunt aliquid facere doloribus odit excepturi tempore ea adipisci iusto quis. Nam atque reprehenderit quibusdam!</p>
+                <a href="#" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./images/south america.png" alt="card-image" class="card-image">
+                <p class="card-text">Catching a short break at the Lotus Pond</p>
+                <p class="card-title">South America</p>
+                <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident consectetur distinctio quae, fugit nobis incidunt aliquid facere doloribus odit excepturi tempore ea adipisci iusto quis. Nam atque reprehenderit quibusdam!</p>
+                <a href="#" class="card-link">Read More</a>
+            </div>
+        </div>
+        <div class="card-contatiner">
+            <div class="card" id="sp-card">
+                <img src="./images/australia.png" alt="card-image" class="card-image">
+                <p class="card-text">Road trip enroute the mountains and forests</p>
+                <p class="card-title">Australia</p>
+                <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident consectetur distinctio quae, fugit nobis incidunt aliquid facere doloribus odit excepturi tempore ea adipisci iusto quis. Nam atque reprehenderit quibusdam!</p>
+                <a href="#" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./images/europe.png" alt="card-image" class="card-image">
+                <p class="card-text">Fall in love with divine agraharams</p>
+                <p class="card-title">Europe</p>
+                <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident consectetur distinctio quae, fugit nobis incidunt aliquid facere doloribus odit excepturi tempore ea adipisci iusto quis. Nam atque reprehenderit quibusdam!</p>
+                <a href="#" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./images/africa.png" alt="card-image" class="card-image">
+                <p class="card-text">Emerald Lakes and Lush Green Valleys</p>
+                <p class="card-title">Africa</p>
+                <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident consectetur distinctio quae, fugit nobis incidunt aliquid facere doloribus odit excepturi tempore ea adipisci iusto quis. Nam atque reprehenderit quibusdam!</p>
+                <a href="#" class="card-link">Read More</a>
+            </div>
+        </div>            
+        </div>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <h2 class="contact-form-title">Contact Us</h2>
+                <h3 class="contact-form-subtitle">Our Sales Team will reach out to you ASAP!</h3>
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" class="input-container"><br>
+                    <label for="Home-town">Your Home Town</label><br>
+                    <select name="Home-town" id="Home-town" class="input-container">
+                        <option value="choose">Choose</option>
+                        <option value="a">Chennai</option>
+                        <option value="b">Nellore</option>
+                        <option value="c">Kochhi</option>
+                        <option value="d">Banglore</option>
+                        <option value="e">Hyderbad</option>
+                    </select><br>
+                    <label for="destination">Where would you like to go?</label><br>
+                    <select name="destination" id="destination" class="input-container">
+                        <option value="choose">Choose</option>
+                        <option value="aa">Asia</option>
+                        <option value="ab">Africa</option>
+                        <option value="ac">Australia</option>
+                        <option value="ad">Europe</option>
+                        <option value="ae">North America</option>
+                        <option value="af">South America</option>
+                    </select><br>
+                    <label for="ph-number">Contact Number</label><br>
+                    <input type="number" name="Contact Number" id="ph-number" class="input-container"><br>
+                    <input type="submit" value="SUBMIT INTEREST" id="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
